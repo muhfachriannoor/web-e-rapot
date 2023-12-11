@@ -191,7 +191,7 @@
                       <div class="form-group">
                         <label>Nama Ayah</label>
                         <input type="text" name="nama_ayah" class="form-control" placeholder="Nama Ayah"
-                          value="<?php echo e(old('nama_ayah', '')); ?>" required>
+                          value="<?php echo e(old('nama_ayah', '')); ?>">
                       </div>
                     </div>
                   </div>
@@ -200,13 +200,13 @@
                       <div class="form-group">
                         <label>Nama Ibu</label>
                         <input type="text" name="nama_ibu" class="form-control" placeholder="Nama Ibu"
-                          value="<?php echo e(old('nama_ibu', '')); ?>" required>
+                          value="<?php echo e(old('nama_ibu', '')); ?>">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Alamat Orang Tua</label>
-                        <textarea name="alamat_orangtua" class="form-control" rows="2" placeholder="Alamat Orang Tua" required><?php echo e(old('alamat_orangtua', '')); ?></textarea>
+                        <textarea name="alamat_orangtua" class="form-control" rows="2" placeholder="Alamat Orang Tua"><?php echo e(old('alamat_orangtua', '')); ?></textarea>
                       </div>
                     </div>
                   </div>
@@ -215,14 +215,14 @@
                       <div class="form-group">
                         <label>Nomor Telepon Orang Tua</label>
                         <input type="number" name="no_telp_orangtua" class="form-control" placeholder="08xxxx"
-                          value="<?php echo e(old('no_telp_orangtua', '')); ?>" required>
+                          value="<?php echo e(old('no_telp_orangtua', '')); ?>">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Pekerjaan Ayah</label>
                         <input type="text" name="pekerjaan_ayah" class="form-control" placeholder="Pekerjaan Ayah"
-                          value="<?php echo e(old('pekerjaan_ayah', '')); ?>" required>
+                          value="<?php echo e(old('pekerjaan_ayah', '')); ?>">
                       </div>
                     </div>
                   </div>
@@ -231,7 +231,7 @@
                       <div class="form-group">
                         <label>Pekerjaan Ibu</label>
                         <input type="text" name="pekerjaan_ibu" class="form-control" placeholder="Pekerjaan Ibu"
-                          value="<?php echo e(old('pekerjaan_ibu', '')); ?>" required>
+                          value="<?php echo e(old('pekerjaan_ibu', '')); ?>">
                       </div>
                     </div>
                     <div class="col-sm-6">

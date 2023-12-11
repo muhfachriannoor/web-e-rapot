@@ -46,12 +46,12 @@ class SiswaController extends Controller
       'asal_sekolah'   => 'required',
       'diterima_dikelas'   => 'required',
       'diterima_tanggal'   => 'required',
-      'nama_ayah'   => 'required',
-      'nama_ibu'   => 'required',
-      'alamat_orangtua'   => 'required',
-      'no_telp_orangtua'   => 'required',
-      'pekerjaan_ayah'   => 'required',
-      'pekerjaan_ibu' => 'required',
+      //'nama_ayah'   => 'required',
+      //'nama_ibu'   => 'required',
+      //'alamat_orangtua'   => 'required',
+      //'no_telp_orangtua'   => 'required',
+      //'pekerjaan_ayah'   => 'required',
+      //'pekerjaan_ibu' => 'required',
       'foto_siswa' => 'required|file|image|mimes:jpeg,png,jpg'
     ]); //Memvalidasi inputan yang kita kirim apakah sudah benar
 
@@ -176,12 +176,12 @@ class SiswaController extends Controller
       'asal_sekolah'   => 'required',
       'diterima_dikelas'   => 'required',
       'diterima_tanggal'   => 'required',
-      'nama_ayah'   => 'required',
-      'nama_ibu'   => 'required',
-      'alamat_orangtua'   => 'required',
-      'no_telp_orangtua'   => 'required',
-      'pekerjaan_ayah'   => 'required',
-      'pekerjaan_ibu' => 'required',
+      //'nama_ayah'   => 'required',
+      //'nama_ibu'   => 'required',
+      //'alamat_orangtua'   => 'required',
+      //'no_telp_orangtua'   => 'required',
+      //'pekerjaan_ayah'   => 'required',
+      //'pekerjaan_ibu' => 'required',
       'foto_siswa' => 'file|image|mimes:jpeg,png,jpg'
     ]); //Memvalidasi inputan yang kita kirim apakah sudah benar
 

@@ -191,7 +191,7 @@
                       <div class="form-group">
                         <label>Nama Ayah</label>
                         <input type="text" name="nama_ayah" class="form-control" placeholder="Nama Ayah"
-                          value="{{ old('nama_ayah', '') }}" required>
+                          value="{{ old('nama_ayah', '') }}">
                       </div>
                     </div>
                   </div>
@@ -200,13 +200,13 @@
                       <div class="form-group">
                         <label>Nama Ibu</label>
                         <input type="text" name="nama_ibu" class="form-control" placeholder="Nama Ibu"
-                          value="{{ old('nama_ibu', '') }}" required>
+                          value="{{ old('nama_ibu', '') }}">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Alamat Orang Tua</label>
-                        <textarea name="alamat_orangtua" class="form-control" rows="2" placeholder="Alamat Orang Tua" required>{{ old('alamat_orangtua', '') }}</textarea>
+                        <textarea name="alamat_orangtua" class="form-control" rows="2" placeholder="Alamat Orang Tua">{{ old('alamat_orangtua', '') }}</textarea>
                       </div>
                     </div>
                   </div>
@@ -215,14 +215,14 @@
                       <div class="form-group">
                         <label>Nomor Telepon Orang Tua</label>
                         <input type="number" name="no_telp_orangtua" class="form-control" placeholder="08xxxx"
-                          value="{{ old('no_telp_orangtua', '') }}" required>
+                          value="{{ old('no_telp_orangtua', '') }}">
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Pekerjaan Ayah</label>
                         <input type="text" name="pekerjaan_ayah" class="form-control" placeholder="Pekerjaan Ayah"
-                          value="{{ old('pekerjaan_ayah', '') }}" required>
+                          value="{{ old('pekerjaan_ayah', '') }}">
                       </div>
                     </div>
                   </div>
@@ -231,7 +231,7 @@
                       <div class="form-group">
                         <label>Pekerjaan Ibu</label>
                         <input type="text" name="pekerjaan_ibu" class="form-control" placeholder="Pekerjaan Ibu"
-                          value="{{ old('pekerjaan_ibu', '') }}" required>
+                          value="{{ old('pekerjaan_ibu', '') }}">
                       </div>
                     </div>
                     <div class="col-sm-6">
