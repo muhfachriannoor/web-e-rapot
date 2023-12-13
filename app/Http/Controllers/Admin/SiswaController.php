@@ -162,7 +162,7 @@ class SiswaController extends Controller
 
   public function update(Request $request, $id)
   {
-    $request->validate([
+    $validation = array(
       'nisn'   => 'required',
       'nama_siswa'   => 'required',
       'jenis_kelamin'   => 'required',
@@ -176,14 +176,27 @@ class SiswaController extends Controller
       'asal_sekolah'   => 'required',
       'diterima_dikelas'   => 'required',
       'diterima_tanggal'   => 'required',
-      //'nama_ayah'   => 'required',
-      //'nama_ibu'   => 'required',
-      //'alamat_orangtua'   => 'required',
-      //'no_telp_orangtua'   => 'required',
-      //'pekerjaan_ayah'   => 'required',
-      //'pekerjaan_ibu' => 'required',
       'foto_siswa' => 'file|image|mimes:jpeg,png,jpg'
-    ]); //Memvalidasi inputan yang kita kirim apakah sudah benar
+    );
+
+    if ($request->input('nama_ayah') != NULL) {
+      $validation['nama_ayah'] = 'required';
+      $validation['nama_ibu'] = 'required';
+      $validation['alamat_orangtua'] = 'required';
+      $validation['no_telp_orangtua'] = 'required';
+      $validation['pekerjaan_ayah'] = 'required';
+      $validation['pekerjaan_ibu'] = 'required';
+    }
+
+    if ($request->input('nama_wali') != NULL) {
+      $validation['nama_wali'] = 'required';
+      $validation['alamat_wali'] = 'required';
+      $validation['no_telp_wali'] = 'required';
+      $validation['pekerjaan_wali'] = 'required';
+    }
+
+    $request->validate($validation); //Memvalidasi inputan yang kita kirim apakah sudah benar
+
 
     $cekDataNisnSiswa = Siswa::query()
       ->where('id', '!=', $id)

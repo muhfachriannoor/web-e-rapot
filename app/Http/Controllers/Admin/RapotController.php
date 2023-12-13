@@ -80,7 +80,6 @@ class RapotController extends Controller
 
   public function WaliKelas()
   {
-    //dd(auth()->user()->guru_id);
     $data = WaliKelas::join('tahun_ajaran', 'wali_kelas.tahun_ajaran_id', '=', 'tahun_ajaran.id')
       ->join('kelas', 'wali_kelas.kelas_id', '=', 'kelas.id')
       ->join('tingkat_kelas', 'kelas.tingkat_kelas_id', '=', 'tingkat_kelas.id')
