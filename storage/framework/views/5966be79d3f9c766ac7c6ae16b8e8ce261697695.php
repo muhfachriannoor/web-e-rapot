@@ -61,8 +61,8 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="<?php echo e(route('dashboard')); ?>" class="brand-link">
-        <img src="<?php echo e(asset('admin/dist/img/AdminLTELogo.png')); ?>" alt="AdminLTE Logo"
-          class="brand-image img-circle elevation-3" style="opacity: .8">
+        <img src="<?php echo e(asset('admin/dist/img/logo_dashboard.png')); ?>" alt="Logo Muhammadiyah"
+          class="brand-image img-circle elevation-3" style="opacity: .8;">
         <span class="brand-text font-weight-light">E-Rapot</span>
       </a>
 
@@ -263,7 +263,7 @@
       <div class="float-right d-none d-sm-block">
         <b>Version</b> 3.2.0
       </div>
-      <strong>Copyright &copy; 2023 muhfachriannoor.</strong> All rights
+      <strong>Copyright &copy; 2023 E-Rapot.</strong> All rights
       reserved.
     </footer>
 
