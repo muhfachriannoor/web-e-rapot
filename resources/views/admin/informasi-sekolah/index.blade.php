@@ -50,12 +50,6 @@
                           </td>
                         </tr>
                         <tr>
-                          <td width="20%">NIS</td>
-                          <td width="1%" align="center">:</td>
-                          <td><b>{{ $value->nis }}</b>
-                          </td>
-                        </tr>
-                        <tr>
                           <td width="20%">NSS</td>
                           <td width="1%" align="center">:</td>
                           <td><b>{{ $value->nss }}</b>

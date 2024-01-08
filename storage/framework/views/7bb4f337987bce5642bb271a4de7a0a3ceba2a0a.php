@@ -61,20 +61,11 @@
                   <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
-                        <label>NIS</label>
-                        <input type="text" name="nis" class="form-control" placeholder="NIS"
-                          value="<?php echo e(old('nis', $data->nis)); ?>" required>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="form-group">
                         <label>NSS</label>
                         <input type="text" name="nss" class="form-control" placeholder="NSS"
                           value="<?php echo e(old('nss', $data->nss)); ?>" required>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>NDS</label>
@@ -82,14 +73,14 @@
                           value="<?php echo e(old('nds', $data->nds)); ?>" required>
                       </div>
                     </div>
+                  </div>
+                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Alamat</label>
                         <textarea name="alamat_sekolah" class="form-control" rows="2" placeholder="Alamat"><?php echo e(old('alamat_sekolah', $data->alamat_sekolah)); ?></textarea>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Kelurahan</label>
@@ -97,6 +88,8 @@
                           value="<?php echo e(old('kelurahan', $data->kelurahan)); ?>" required>
                       </div>
                     </div>
+                  </div>
+                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Kecamatan</label>
@@ -104,8 +97,6 @@
                           value="<?php echo e(old('kecamatan', $data->kecamatan)); ?>" required>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Kota/Kabupaten</label>
@@ -113,6 +104,8 @@
                           value="<?php echo e(old('kota_kabupaten', $data->kota_kabupaten)); ?>" required>
                       </div>
                     </div>
+                  </div>
+                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Provinsi</label>
@@ -120,8 +113,6 @@
                           value="<?php echo e(old('provinsi', $data->provinsi)); ?>" required>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Link Website</label>
@@ -129,6 +120,8 @@
                           value="<?php echo e(old('link_website', $data->link_website)); ?>" required>
                       </div>
                     </div>
+                  </div>
+                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Email</label>
@@ -136,8 +129,6 @@
                           value="<?php echo e(old('email', $data->email)); ?>" required>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Kode Pos</label>
@@ -145,6 +136,8 @@
                           value="<?php echo e(old('kode_pos', $data->kode_pos)); ?>" required>
                       </div>
                     </div>
+                  </div>
+                  <div class="row">
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Nomor Telepon Sekolah</label>

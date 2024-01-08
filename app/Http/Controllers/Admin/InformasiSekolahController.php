@@ -32,7 +32,6 @@ class InformasiSekolahController extends Controller
     $request->validate([
       'nama_sekolah'   => 'required',
       'npsn'     => 'required',
-      'nis'     => 'required',
       'nss'     => 'required',
       'nds'     => 'required',
       'alamat_sekolah' => 'required',
@@ -49,7 +48,6 @@ class InformasiSekolahController extends Controller
     $dataUpdate = array(
       'nama_sekolah'   => $request->input('nama_sekolah'),
       'npsn'     => $request->input('npsn'),
-      'nis'     => $request->input('nis'),
       'nss'     => $request->input('nss'),
       'nds'     => $request->input('nds'),
       'alamat_sekolah' => $request->input('alamat_sekolah'),
